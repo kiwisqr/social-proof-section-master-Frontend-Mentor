@@ -63,6 +63,7 @@ body {
     &-rated1st, &-rated2nd, &-rated3rd {
         padding-right: 40px;
         font-size: .9rem;
+        color: var(--very-dark-magenta);
     } 
 
     &-staricons {
@@ -105,7 +106,7 @@ body {
 .below {
     display: grid;
     margin: 0;
-    margin-top: 100px;
+    margin-top: 80px;
     grid-template-columns: repeat(3, auto);
     justify-content: space-between;
     gap: 2%;
